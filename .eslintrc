@@ -1,0 +1,32 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "no-unused-vars": 0,
+    "max-len": [
+      1,
+      120,
+      2,
+      {
+        "ignoreComments": true
+      }
+    ],
+    "semicolon": [
+      true,
+      "always"
+    ],
+    "comma-dangle": [
+      "error",
+      "never"
+    ]
+  },
+  "extends": [
+    "airbnb-base"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
